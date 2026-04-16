@@ -4,4 +4,4 @@ COPY requirements.txt .
 RUN pip install -r requirements
 COPY app.py .
 EXPOSE 5000
-CMD ["DEVOPSPRAC","app.py"]
+CMD ["python","app.py"]
